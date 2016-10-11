@@ -5,6 +5,7 @@ Docker image for [git2consul](https://github.com/Cimpress-MCP/git2consul)
 ## Up and running
 
 ```bash
+$ mkdir -p /tmp/git2consul.d
 $ cat <<EOF > /tmp/git2consul.d/config.json
 {
   "version": "1.0",
